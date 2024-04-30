@@ -31,6 +31,7 @@ while True:
         led.color_set(255, 0, 0)
         if first_on:
             step += 1
+            print(f'{step} steps')
             if step >= three_min:
                 beep.famimaloop()
                 print('beep_end')
